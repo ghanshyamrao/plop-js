@@ -1,0 +1,47 @@
+$primarycolor : rgb(255, 255, 255);
+$secondarycolor :blue;
+$lightColor :whitesmoke;
+
+@function setTextcolor($color){
+    @if(lightness($color)>70){
+        @return #000000;
+    }
+    @else{
+        @return rgb(255, 255, 255)
+    }
+}
+// // // // /////sdlnflsd
+
+@mixin setBackgr($color){
+    background-color: $color;
+    color: setTextcolor($color);
+}
+
+
+@function setColorInvert($color){
+    @if(lightness($color)<70){
+        @return rgb(255, 255, 255);
+    }@else{
+        @return rgb(0, 0, 0);
+    }
+}
+
+
+@mixin setBackgrInvert($color){
+    background-color: $color;
+    color: setBackground($color);
+}
+
+@mixin setIcon($name,$TB,$LR,$url){
+    .icon-#{$name}{
+        background-color: url($url);
+        position: absolute;
+        #{$TB}:0;
+        #{$LR}:0;
+    }
+}
+
+
+@mixin setTextColor($color){
+    color: setBackgrInvert($color);
+}

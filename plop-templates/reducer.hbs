@@ -1,0 +1,12 @@
+import { {{camelCase name}}ActionTypes } from '../../actionTypes/{{name}}';
+
+const initialState = {};
+
+export default function {{camelCase name}}Reducer(state = initialState, action) {
+  switch (action.type) {
+    case {{camelCase name}}ActionTypes.{{constantCase name}}:
+      return state;
+    default:
+      return state;
+  }
+}

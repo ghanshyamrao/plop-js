@@ -1,0 +1,12 @@
+import express from 'express';
+import { {{camelCase name}}ActionTypes } from '../actionTypes/{{name}}';
+import { {{camelCase name}} } from '../store/actions/{{name}}';
+
+const {{camelCase name}}Controller = express.Router();
+
+{{camelCase name}}Controller.post('/', (req, res) => {
+  // Handle {{name}} creation logic here
+  res.json({ message: '{{name}} created successfully' });
+});
+
+export default {{camelCase name}}Controller;

@@ -1,0 +1,46 @@
+@import '../../../config';
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 6px;
+    @include setBackgrInvert($primarycolor);
+}
+
+.wallet{
+    @extend .button;
+    color: setTextcolor($primarycolor)
+}
+
+.price{
+    @extend .button;
+    color: setTextcolor($primarycolor)
+}
+
+.mediaicon{
+    @include setBackgr($primarycolor);
+    border:1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 5rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    color: setTextcolor($primarycolor)
+}
+
+.sideBaricon{
+    @extend .button;
+    width: 100%;
+    height: 5rem;
+    font-size: 30px;
+    @include setBackgr($primarycolor);
+    border:1px solid rgb(0, 0, 0);
+    border:none;
+    color: setTextcolor($primarycolor)
+}
+

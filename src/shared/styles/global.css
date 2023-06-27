@@ -1,0 +1,506 @@
+.back_btn {
+  width: 5.4rem;
+  height: 2.3rem;
+  padding-left: 0px;
+  padding-right: 5px;
+  background: #6966c6;
+  border-radius: 4px;
+  border: 2.25333px solid #ffffff;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.widthEva{
+  width: 100%;
+}
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: rgba(0, 0, 0, 0.507);
+  font-size: 25px;
+  margin-left: 24px;
+  margin-right: 30px;
+  z-index: 999;
+}
+.ant-drawer-right > .ant-drawer-content-wrapper{
+  right: -27px;
+}
+.accessTable{
+  margin-top: 66px;
+}
+.ant-modal-body{
+padding: 0px !important;
+}
+.tableHeaderText{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  background-color: #0000000d;
+  padding: 10px;
+}
+.companyAddresscard{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: unset;
+}
+
+.status-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+}
+
+.mobile-Edit-button{
+  margin-left: 8px;
+  padding: 6px 10px;
+  border-radius: 3px;
+  border:none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Edit-caseStaus-button:hover{
+  border: 1px solid #6966c6;
+}
+ 
+.Edit-caseStaus-button{
+  float: right;
+  margin-left: 13px;
+  padding: 6px 10px;
+  border-radius: 3px;
+  border:none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.addresscontainer{
+  width: 44vw;
+}
+
+
+.registerCard {
+  display: flex;
+  flex-direction: row;
+  background-color:white;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 200px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.imageregisterCard {
+  position: relative;
+}
+.imageregisterCard img {
+  width: 100%;
+  height: auto;
+}
+
+.contentregisterCard {
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.container {
+  width: 99% !important;
+  padding: 0px !important;
+  position: relative;
+ 
+}
+
+.overlay {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50;
+  right: 50;
+  opacity: 0;
+  transition: opacity 0.5s;
+  color: black !important;
+  background-color: rgba(255, 255, 255, 0.559);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.productImageIcon {
+  color: #fff;
+  display: flex;
+  text-align: center;
+  line-height: 200px;
+  font-size: 24px;
+  margin: 0px 30px;
+  position: absolute;
+  font-size: 17px;
+}
+
+.view {
+  left: 5vw;
+}
+
+.delete {
+  right: 5vw;
+}
+
+.productImageIcon:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255) !important;
+}
+
+
+
+.ant-menu-item ant-menu-item-only-child:hover{
+background-color: white !important;
+}
+.ant-layout .app-layout-mini-sidebar-main{
+  background-color: white !important;
+}
+.layoutTableBackground{
+  background-color: white;
+}
+.comp{
+  font-weight: 600;
+}
+.navigationButton {
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+  align-items:center;
+  width: 100%;
+  background: transparent;
+  white-space: normal;
+  word-break: break-all;
+  line-height: 20px;
+  height: auto;
+}
+.specifiCationButton{
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+  align-items:center;
+  width:auto;
+  background: transparent;
+  white-space: normal;
+  word-break: break-all;
+  line-height: 20px;
+  height: auto;
+}
+.ant-alert-with-description{
+  align-items: center;
+}
+.checked-box{
+  margin-top: 20px;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: rgb(0, 0, 0);
+}
+.container-heading {
+  display: flex;
+  justify-content: left;
+}
+
+.uploadContainer{
+  width: 70% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  line-height: 25px;
+  align-items: center;
+  margin: 50px;
+}
+.breadcrumb-heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 260px 10px 60px;
+  z-index: 9999;
+  position: fixed;
+  background-color:rgb(255, 255, 255);
+}
+.backBtn {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(106 103 206 / 60%);
+  padding: 6px;
+  color: #6966c6;
+  border-radius: 4px;
+  margin-top: -7px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.ExectinoStrategySwitchbtn{
+  margin-left: 20px;
+  font-weight: 600;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+
+.Company_name_Heading {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 10px;
+  align-items: center;
+  color: #6966c6;
+  margin-top: -10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  line-height: unset;
+}
+
+.WhatCustomerWants_container {
+margin-top: 15px;
+}
+
+.market_container{
+  margin-top: 15px;
+}
+
+.editIConstyle{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ant-form-item-row{
+  flex-direction: column !important;
+ 
+}
+
+.ant-form-item-label>label{
+  font-weight: 500;
+  float: left !important;
+}
+
+.ant-form-horizontal >.ant-form-item{
+  margin-bottom: 10px ;
+}
+
+.colorType {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  background: transparent;
+  border-radius: 1px;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 5px 10px;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 16px;
+  margin-right: 5px;
+}
+.colorTypeText{
+  display: flex;
+  font-weight: 600;
+  font-size: 13px;
+}
+.colorTypeTxt{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 13px;
+}
+@media screen and (max-width: 1200px) {
+  .view {
+    left: 2vw;
+  }
+  
+  .delete {
+    right: 2vw;
+  }
+  .breadcrumb-heading {
+    padding: 10px 70px 10px 60px;
+  }
+ 
+  .addresscontainer{
+    width: 100%;
+  }
+}
+.ant-pagination-item-active{
+  border:1px solid #797979;
+}
+.ant-pagination-item-active a{
+  color: rgb(131, 131, 131) !important;
+}
+
+@media screen and (max-width: 800px) {
+ 
+  .accessTable{
+    margin-top: 0px;
+  }
+  .view {
+    left: 5vw;
+  }
+  
+  .delete {
+    right: 5vw;
+  }
+  .icon{
+    margin: 0px 30px;
+    font-size: 17px;
+  }
+  .Company_name_Heading {
+    margin: -10px 0px 0px 5px;
+    width: 100%; 
+  }
+
+.breadcrumb-heading {
+  padding: 10px 60px 10px 70px;
+}
+.addresscontainer{
+  margin-top: 10px;
+}
+}
+
+.ExectinoStrategybtn{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px ;
+  border: 1.52941px solid #D8D8D8;
+  border-radius: 6.11765px;
+  background-color: transparent;
+  color: #353535;
+  font-weight: 700;
+  font-size: 14.173px;
+  margin-right: 10px;
+  cursor: pointer;
+  }
+  .or{
+    margin: 0px 10px;
+  }
+  .ExectinoStrategybtn:hover{
+    border: 1.52941px solid  #0A8FDC;
+  }
+@media screen and (max-width:573px){
+  .deviceContainer{
+    margin-top: 15px;
+  }
+  .accessTable{
+    margin-top: 0px;
+  }
+  .popupImage{
+    margin-left: 55px !important;
+  }
+.mainBusinessCaseContainer{
+  margin: 110px 35px 0px 35px !important;
+  width: auto;
+}
+  .masters {
+    width: auto !important;
+    margin-top: 30px !important;
+    margin-right: 30px !important;
+    margin-left: 50px !important;
+  }
+  .icon{
+    margin: 0px 30px;
+  }
+  .or{
+   display: flex;
+   justify-content: center;
+   margin: 8px 0px;
+  }
+  .ExectinoStrategybtn{
+  width: 100%;
+  }
+  .ExectinoStrategySwitchbtn{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    justify-content: center;
+    width: 92%;
+    align-items:normal;
+    margin:10px 40px 10px 40px;
+    font-weight: 600;
+    margin-left: 0px;
+  }
+  .breadcrumb-heading {
+    padding: 20px 80px 20px 50px;
+  }
+
+  .pageHeading{
+    margin-left: 0px !important;
+  }
+  .heading_container{
+    margin-left: 0px !important;
+  }
+}
+
+
+@media screen and (min-width:765px) {
+  .Company_name_Heading {
+    width: 100%;
+  }
+  .stackholderTable{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .Company_name_Heading {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:704px) and (min-width:600px) {
+ 
+  .dateComponent {
+    margin-left: 0px;
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width:1200px) {
+  .businessCaseDetails{
+    margin-top: -20px;
+  }
+}
+
+.mainBusinessCaseContainer{
+  margin: 80px 50px 0px 60px;
+  width: auto;
+}
+
+.ant-tabs-top > .ant-tabs-nav{
+  margin-bottom: 30px;
+}
